@@ -1,9 +1,12 @@
 import React from "react";
 
+import Home from "./components/home/Home";
+import Contact from "./components/contact/Contact";
+
 const App = () => {
   return (
     <div>
-      <h1>This is Rohit Roy on React !</h1>
+      <Contact />
     </div>
   )
 }
